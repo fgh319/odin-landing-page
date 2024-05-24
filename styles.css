@@ -80,6 +80,7 @@ header {
     color: #F9FAF8;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .info {
@@ -140,4 +141,41 @@ header {
 
 .author {
     margin-left: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action {
+    height: 260px;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+}
+
+.signup {
+    height: 120px;
+    border-radius: 8px;
+    flex: 1;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup h3 {
+    color: white;
+}
+
+.signup p {
+    color: #E5E7EB;
+}
+
+.signup button {
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    background-color: #3882F6;
+    padding: 6px 24px;
+    font-size: 18px;
+    cursor: pointer;
 }
