@@ -179,3 +179,12 @@ header {
     font-size: 18px;
     cursor: pointer;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
