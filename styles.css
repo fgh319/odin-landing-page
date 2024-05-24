@@ -121,3 +121,23 @@ header {
 .items .subtext {
     color: #666;
 }
+
+.quote {
+    height: 320px;
+    background-color: #E5E7EB; 
+    padding: 0px 220px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotation {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    margin-left: auto;
+}
